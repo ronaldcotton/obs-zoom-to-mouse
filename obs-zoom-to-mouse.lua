@@ -6,7 +6,7 @@
 
 local obs = obslua
 local ffi = require("ffi")
-local VERSION = "1.0.2a"
+local VERSION = "1.0.2"
 local CROP_FILTER_NAME = "obs-zoom-to-mouse-crop"
 
 local socket_available, socket = pcall(require, "ljsocket")
